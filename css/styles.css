@@ -148,6 +148,10 @@ p{
     text-align: center;
 }
 
+.social-media{
+    margin: 20px 10px;
+}
+
 
 @media (max-width:1050px){
     #title{
