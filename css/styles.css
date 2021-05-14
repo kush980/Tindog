@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat',sans-serif;
+    text-align: center;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -20,6 +21,15 @@ p{
 .container-fluid{
 
     padding:7% 15%;
+}
+
+.coloured-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -49,10 +59,6 @@ p{
 }
 
 /* Title image   */
-#title{
-    background-color: #ff4c68;
-    color: #fff;
-}
 
 .title-image{
     width: 60%;
@@ -62,12 +68,12 @@ p{
 }
 
 #title .container-fluid{
-    padding: 3% 15% 7%;
+    padding: 3% 15%;
+    text-align: left;
 }
 /* Features Section  */
 
 #features{
-    background-color: #fff;
     position: relative;
     z-index: 1;
 }
@@ -136,17 +142,7 @@ p{
     font-size: 1.5rem;
 }
 
- /* call to Action */
-#cta{
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: center;
-}
-
 /* footer Section  */
-#footer{
-    text-align: center;
-}
 
 .social-media{
     margin: 20px 10px;
