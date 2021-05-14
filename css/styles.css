@@ -129,3 +129,21 @@ p{
 .pricing-column{
     padding: 3% 2%;
 }
+ /* call to Action */
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+@media (max-width:1050px){
+    #title{
+        text-align: center;
+    }
+    
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+
