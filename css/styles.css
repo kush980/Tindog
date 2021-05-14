@@ -2,36 +2,24 @@ body{
     font-family: 'Montserrat',sans-serif;
 }
 
-.container-fluid{
-    padding:3% 15% 7%;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
 }
 
+p{
+    font-size: 1.17rem;
+    color: #8f8f8f;
+}
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
+.h1-text{
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
 }
 
-h3{
-    font-family: "Montserrat"; 
-    font-size: 1.5rem;
-}
+.container-fluid{
 
-h2{
-    font-family: "Montserrat";
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-p{
-    color: #8f8f8f;
-}
-
-#title{
-    background-color: #ff4c68;
-    color: #fff;
+    padding:7% 15%;
 }
 
 /* Navigation Bar */
@@ -61,6 +49,10 @@ p{
 }
 
 /* Title image   */
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
 
 .title-image{
     width: 60%;
@@ -69,10 +61,12 @@ p{
     right: 30%;
 }
 
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
 /* Features Section  */
 
 #features{
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
     z-index: 1;
@@ -90,10 +84,13 @@ p{
     color: #ff4c68;
 }
 
+.feature-title{
+    font-size: 1.5rem;
+}
+
 /* Testimonial Section  */
 
 #testimonials{
-    /* padding: 7% 15%; */
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -115,10 +112,10 @@ p{
     margin: 20px 20px 50px;
 }
 
-.carousel-item{
-    padding:7% 15%;
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
-
 /* Pricing Section */
 
 #pricing{
@@ -129,22 +126,25 @@ p{
 .pricing-column{
     padding: 3% 2%;
 }
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-title{
+    font-size: 1.5rem;
+}
+
  /* call to Action */
 #cta{
     background-color: #ff4c68;
     color: #fff;
-    padding: 7% 15%;
     text-align: center;
-}
-
-.cta-heading{
-    font-size: 3.5rem;
-    line-height: 1.5;
 }
 
 /* footer Section  */
 #footer{
-    padding: 7% 15%;
     text-align: center;
 }
 
@@ -152,6 +152,7 @@ p{
     margin: 20px 10px;
 }
 
+/* MEDIA Query  */
 
 @media (max-width:1050px){
     #title{
