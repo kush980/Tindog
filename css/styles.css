@@ -97,9 +97,7 @@ p{
 /* Testimonial Section  */
 
 #testimonials{
-    text-align: center;
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-image{
@@ -110,7 +108,6 @@ p{
 
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 .press-image{
